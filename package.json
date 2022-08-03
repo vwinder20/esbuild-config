@@ -1,0 +1,22 @@
+{
+  "name": "esbuild-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./esbuild/build/esbuild-config.js",
+    "dev": "node ./esbuild/build/esbuild-dev.js",
+    "prod": "node ./esbuild/build/esbuild-prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.53"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.54.1"
+  }
+}
